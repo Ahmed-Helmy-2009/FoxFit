@@ -1,0 +1,63 @@
+body{
+    border: double 10px rgb(255, 255, 255);
+    text-align: right;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-image: url(3d-grunge-concrete-interior-with-spotlights.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    margin-right: 10px;
+    display: inline-block;
+    color: rgb(250, 246, 0);
+    height: 5px;
+}
+h1{
+    display: inline-block;
+    color: #9d8d8f;
+}
+img{
+    width: 25%;
+    border: white solid 5px;
+    padding: 5px;
+    text-align: left;
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 15px;
+    margin-bottom: 230px;
+
+}
+h3{
+    margin-right: 10px;
+    display: inline-block;
+    height: 5px;
+    color: white;
+}
+#mmmm{
+   margin-right: 900px ;
+}
+div{
+    display: inline-block;
+    width: 70%;
+}
+#hh{
+    border: solid 2px white;
+    padding: 5px 10px;
+    margin-right: 10PX;
+    display: inline-block;
+}
+#e{
+    font-style: initial;
+    font-size: xx-large;
+    color:#9d8d8f;
+    display: inline;
+}
+#sub{
+    color: #ffffff;
+    background-color: #9d8d8f;
+    padding: 5px 10px;
+    border: solid black 2px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 0px #9d8d8f;
+    height: fit-content;
+}

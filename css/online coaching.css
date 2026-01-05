@@ -1,0 +1,200 @@
+.back{
+    width: 100%;
+    position: absolute;
+    height:60%;
+    background-color: rgb(86, 168, 240);
+    z-index: 1;
+}
+.back h1{
+    font-size:50px;
+    position: absolute;
+    z-index: 2;
+    top: 10%;
+    left: 28%;
+    color: white;
+}
+.one,.two,.three,.four{
+    display: inline-block;
+    width: 20%;
+    height: 50%;
+    background-color: white;
+    position: absolute;
+    z-index: 3;
+    border-radius: 10px;
+    text-align: center;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+.one,.two,.three,.four, h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 15px 0 0 0;
+}
+.one{
+    left: 4%;
+    top: 35%;
+}
+.one:hover{
+    scale: 1.1;
+}
+h2{
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}
+.two{
+    top: 35%;
+    left: 28%;
+}
+.two:hover{
+    scale: 1.1;
+}
+.three{
+    top: 35%;
+    left: 52%;
+}
+.three:hover{
+    scale: 1.1;
+}
+.four{
+    top: 35%;;
+    left: 76%;
+}
+.four:hover{
+    scale: 1.1;
+}
+img{
+    width: 170px;
+    position: relative;
+    border-radius: 10px;
+    top:10px;
+}
+.vv{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(86, 168, 240);
+    color: white;
+    display:block;
+    position:relative;
+    top: 31.5px;
+    left: 24.2%;
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: .3s;
+    border-radius: 10px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.onc{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(86, 168, 240);
+    color: white;
+    display:block;
+    position:relative;
+    top: 10px;
+    left: 24.2%;
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 30px;
+    text-decoration: none;
+    transition-duration: .3s;
+    border-radius: 10px;
+}
+a:hover{
+    scale: 1.1;
+}
+
+@media screen and (max-width: 480px) and (min-width: 0px){
+    .back h1{
+        font-size: 40px;
+        display: block;
+        margin: 0;
+        left: 20px;
+        top: 50px;
+    }
+    .back{
+        height: 270%;
+    }
+    .one,.two,.three,.four{
+        display: block;
+        width: 80%;
+        height: 400px;
+        background-color: white;
+        position: relative;
+        z-index: 3;
+        border-radius: 10px;
+        text-align: center;
+        transition-duration: .3s;
+        cursor: pointer;
+        left: 10%;
+        margin: 20% 0 20% 0;
+    }
+    img{
+        width: 90%;
+        position: relative;
+        border-radius: 10px;
+        top:10px;
+    }
+    .one{
+        top: 150px;
+    }
+    .two{
+        top: 150px;
+    }
+    .three{
+        top: 150px;
+    }
+    .four{
+        top: 150px;
+    }
+    h2{
+        text-align: center;
+        font-size: 30px;
+        margin: 0;
+    }
+    .one,.two,.three,.four, h1{
+        text-align: center;
+        font-size: 40px;
+        margin: 15px 0 0 0;
+    }
+    .onc, .vv{
+        height: 60px;
+        width: 120px;
+        background-color: rgb(86, 168, 240);
+        color: white;
+        display:block;
+        position:relative;
+        top: 10px;
+        left: 26%;
+        padding-left: 15px;
+        padding-top: 10px;
+        font-size: 40px;
+        text-decoration: none;
+        transition-duration: .3s;
+        border-radius: 10px;
+    }
+    .vv{
+        height: 60px;
+        width: 120px;
+        background-color: rgb(86, 168, 240);
+        color: white;
+        display:block;
+        position:relative;
+        top: 30px;
+        left: 26%;
+        padding-left: 15px;
+        padding-top: 10px;
+        font-size: 40px;
+        text-decoration: none;
+        transition-duration: .3s;
+        border-radius: 10px;
+    }
+    
+    
+}

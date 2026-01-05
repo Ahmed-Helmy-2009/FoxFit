@@ -1,0 +1,229 @@
+body{
+    background-image: url(3d-grunge-concrete-interior-with-spotlights.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parent{
+    background-color: white;
+    position: absolute;
+    display: inline-block;
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    top: 5%;
+    z-index: 1;
+    border-radius: 8px;
+}
+#about{
+    font-size:  60px;
+    display: inline-block;
+    position: absolute;
+    left: 12%;
+    top: 33%;
+    border-bottom: double black 5px;
+}
+ul{
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    font-size: 20px;
+
+}
+.one{
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 63%;
+    top: 80%;
+    z-index: 30;
+    margin-left: 1%;
+    transition-duration: .3s;
+}
+.two{
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 67%;
+    top: 80%;
+    z-index: 30;
+    margin-left: 1%;
+    transition-duration: .3s;
+}
+.three{
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 71%;
+    top: 80%;
+    z-index: 30;
+    margin-left: 1%;
+    transition-duration: .3s;
+}
+.four{
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 75%;
+    top: 80%;
+    z-index: 30;
+    margin-left: 1%;
+    transition-duration: .3s;
+}
+img:hover{
+scale: 1.2;
+}
+.follow{
+    font-size: 25px;
+    display: inline-block;
+    position: absolute;
+    left: 52.2%;
+    top: 76%;
+}
+
+@media screen and (min-width: 0px) and (max-width:480px) {
+    body{
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    #about{
+        margin: auto;
+        text-align: center;
+        display: block;
+        border-bottom: black double 4px;
+        font-size: 30px;
+        position: absolute;
+        top: 5%;
+        left: 34%;
+    }
+    ul{
+        display: inline-block;
+        position: absolute;
+        left: 5%;
+        top: 10%;
+        font-size: 20px;
+    
+}
+.follow{
+    font-size: 25px;
+    display: inline-block;
+    position: absolute;
+    left: 10%;
+    top: 420px;
+}
+.one{
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 45%;
+    top: 435px;
+    z-index: 30;
+    margin-left: 1%;
+    transition-duration: .3s;
+}
+.two{
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 55%;
+    top: 435px;
+    z-index: 30;
+    margin-left: 1%;
+    transition-duration: .3s;
+}
+.three{
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 65%;
+    top: 435px;
+    z-index: 30;
+    margin-left: 1%;
+    transition-duration: .3s;
+}
+.four{
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 75%;
+    top: 435px;
+    z-index: 30;
+    margin-left: 1%;
+    transition-duration: .3s;
+}
+}
+@media screen and (min-width: 481px) and (max-width:768px) {
+    body{
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    #about{
+        margin: auto;
+        text-align: center;
+        display: block;
+        border-bottom: black double 4px;
+        font-size: 50px;
+        position: absolute;
+        top: 5%;
+        left: 34%;
+    }
+    ul{
+        display: inline-block;
+        position: absolute;
+        left: 5%;
+        top: 10%;
+        font-size: 30px;
+    
+}
+.follow{
+    font-size: 35px;
+    display: inline-block;
+    position: absolute;
+    left: 8%;
+    top: 625px;
+}
+.one{
+    width: 50px;
+    display: inline-block;
+    position: absolute;
+    left: 35%;
+
+    z-index: 30;
+    margin-left: 1%;
+    transition-duration: .3s;
+}
+.two{
+    width: 50px;
+    display: inline-block;
+    position: absolute;
+    left: 45%;
+
+    z-index: 30;
+    margin-left: 1%;
+    transition-duration: .3s;
+}
+.three{
+    width: 50px;
+    display: inline-block;
+    position: absolute;
+    left: 55%;
+    z-index: 30;
+    margin-left: 1%;
+    transition-duration: .3s;
+}
+.four{
+    width: 50px;
+    display: inline-block;
+    position: absolute;
+    left: 65%;
+
+    z-index: 30;
+    margin-left: 1%;
+    transition-duration: .3s;
+}
+img{
+    top: 650px;
+}
+}
